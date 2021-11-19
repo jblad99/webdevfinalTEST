@@ -1,0 +1,121 @@
+.common {
+    /*position: absolute;*/
+    text-align: justify;
+}
+
+.body {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 60px;
+    z-index: 2;
+    /*border-bottom: solid 1px #555555*/
+    background-color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.mainbody {
+    top: 100px;
+    bottom: 64px;
+    left: 114px;
+    right: 114px;
+    height: fit-content;
+    background-color: rgb(135, 182, 235);
+}
+
+.container {
+    display: flex;
+    /*border: 3px solid hotpink;*/
+    width: 50%;
+    height: 50%
+}
+
+.container1 {
+    display: flex;
+    /*border: 3px solid greenyellow;*/
+}
+
+.left {
+    width: 100%;
+    height: 100%;
+    float: left;
+    flex: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /*border: solid 2px greenyellow;*/
+    margin: 20px;
+    color: white;
+}
+  
+.right {
+    width: 100%;
+    height: 100%;
+    float: right;
+    flex: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /*border: solid 2px rgb(255, 47, 92);*/
+    margin: 20px;
+    color: white;
+}
+
+.footer {
+    bottom: 5px;
+    height: 60px;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    /*position: fixed;*/
+    position: relative;
+}
+
+.subheader {
+    text-decoration: none;
+    color: white;
+    padding-top: 20px;
+    padding-right: 35px;
+}
+
+.float1 {
+    float:right;
+}
+
+.text-muted {
+    --bs-text-opacity: 1;
+    color: #6c757d;
+}
+
+.float {
+    float: left;
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+.tabsub {
+    text-align: center;
+}
+
+.a.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.box1 {
+    border: solid 1px white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+    float: left;
+}
